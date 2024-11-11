@@ -25,7 +25,7 @@ export const Users = () => {
 
     return (
         <div className="mx-7 mt-4">
-            <div className="h-10 text-center mb-3 text-slate-200 font-bold text-3xl">
+            <div className="h-10 text-center mb-3 text-black font-bold text-3xl">
                 Send Money to
             </div>
             <div>
@@ -33,7 +33,7 @@ export const Users = () => {
                     setFilter(e.target.value)
                 }} className="p-2 rounded-md border w-full bg-slate-200 font-bold text-black" placeholder="Search . . ."></input>
             </div> 
-            <div className="bg-white mx-10 rounded-xl p-11 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 text-center my-10">
+            <div className="bg-slate-300 mx-10 rounded-xl p-11 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 text-center my-10">
                 { users.map(user => <User name={name} balance={balance} id={id} user={user} key={user._id}/>) }
             </div>
         </div>

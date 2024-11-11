@@ -21,7 +21,7 @@ export default function Dashboard(){
     }, [])
 
     return (
-        <div className="bg-slate-950 h-screen">
+        <div className="bg-white h-max">
             <Appbar />
             <Balance />
             <Users />

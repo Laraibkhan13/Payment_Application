@@ -26,7 +26,7 @@ export const Balance = () => {
     return (
         <div className="flex justify-between">
             <div className="flex h-14">
-                <div className="ml-7 flex flex-col justify-center font-bold text-white">
+                <div className="ml-7 flex flex-col justify-center font-bold text-black">
                     Your balance:
                 </div>
                 <div className="text-xl font-bold text-blue-950 ml-3 flex flex-col justify-center">

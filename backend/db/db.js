@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // require('dotenv').config()
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://khanlaraib13:qwerty1234@cluster0.8dgrbiv.mongodb.net/Payment')
+mongoose.connect('your URL')
 
 const userSchema = new mongoose.Schema({
     firstName: String,

@@ -6,7 +6,7 @@ export default function Appbar(){
     const firstName = location.state.firstName;
 
     return(
-        <div className="flex justify-between shadow h-14">
+        <div className="flex justify-between shadow h-14 bg-black">
             <div className="flex">
                 <div className="flex flex-col justify-center ml-4 font-sans font-black text-blue-950 text-3xl italic    ">
                     PAY
